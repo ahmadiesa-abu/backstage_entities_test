@@ -1,0 +1,18 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: EC2-VPC
+  description: The blueprint creates VPC and all necessary network resources on AWS in order to spin up EC2 instances.
+
+  tags:
+    - tosca
+    - cloudify
+  links:
+    - url: http://54.241.65.104/console/page/blueprints_blueprint/EC2-VPC?c=%5B%7B%22context%22%3A%7B%7D%7D%2C%7B%22context%22%3A%7B%22blueprintId%22%3A%22EC2-VPC%22%7D%2C%22pageName%22%3A%22EC2-VPC%22%7D%5D#!
+      title: Deploy component
+      icon: user
+spec:
+  type: service
+  lifecycle: production
+  owner: team-a
