@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage_entities_test
+  annotations:
+    github.com/project-slug: ahmadiesa-abu/backstage_entities_test
+spec:
+  type: other
+  lifecycle: unknown
+  owner: team-a
